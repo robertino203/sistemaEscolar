@@ -2,7 +2,7 @@
 <html lang="es-ES">
 <head>
   <link href="css/normalize.css" rel="stylesheet" /> 
-  <link href="css/EstiloSistemaEscolar.css" rel="stylesheet" />
+  <link href="css/sistemaEscolar.css" rel="stylesheet" />
   <script src="js/jquery-1.12.2.min.js"></script>
   <!-- <script src="js/jsBiblioteca.js" ></script> -->
   <meta charset="utf-8" />
@@ -12,12 +12,13 @@
   <!-- <meta http-equiv="refresh" content="3"; 
   url="http://www.google.com" /> -->
 </head>
-<body id="cuerpo">
+<body>
+<div id="contenedor">
   <!-- Cabecera -->
-  <header id="cabeceraPrincipal">
-  	 <figure id="logo">
-	   <img src="img/miLogo1.png" />
-	 </figure>
+  <header>
+  	 <figure id="logo" >
+       <img src="img/miLogo1.png"/>
+     </figure>
   </header>
   <!-- Menú -->
   <nav id="menuNavegacion">
@@ -26,100 +27,67 @@
       <li><a href="#">Usuarios</a></li>
       <li><a href="#">Docentes</a></li>
       <li><a href="#">Biblioteca</a></li>
-	  <li><a href="#">Grupos</a></li>
-	  <li><a href="#">Parcela</a></li>
+	    <li><a href="#">Grupos</a></li>
+	    <li><a href="#">Parcela</a></li>
     </ul 
   </nav>
   <!-- ContenidoPrincipal -->
-  <section id="contenidoPrincipal">
+  <section>
     <hgroup>
         <h1>Art&iacute;culo 1</h1>
-	</hgroup>
+	  </hgroup>
 	<article>
-	  <p> 
-   	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-   	    Suspendisse risus nibh, commodo et dictum vel, viverra ac est. 
-   	    Morbi luctus iaculis purus aliquam lacinia. Cras eu pellentesque ligula. 
-   	    Sed elementum, lorem ac aliquam sollicitudin, urna nibh pharetra nisl, 
-        in mollis tellus metus quis sapien. Pellentesque habitant morbi tristique 
-   	    senectus et netus et malesuada fames ac turpis egestas. Morbi bibendum tortor
-   	    malesuada nisi consectetur, sit amet lobortis nisl pulvinar. Suspendisse et 
-   	    ipsum at lectus imperdiet facilisis. Nulla ullamcorper justo felis, eget mattis
-   	    purus luctus quis. Sed interdum nisl erat, vitae porttitor dolor ornare vel. 
-   	    Praesent rutrum non metus at lacinia. Suspendisse sed consequat orci. 
-   	    Proin lectus augue, venenatis at tellus ut, luctus rhoncus erat. 
-   	    In hac habitasse platea dictumst.
-	  </p>
-	  <p>
-	    Praesent rutrum non metus at lacinia. Suspendisse sed consequat orci. 
-   	    Proin lectus augue, venenatis at tellus ut, luctus rhoncus erat. 
-   	    In hac habitasse platea dictumst.
-	  </p>
-	  <p>
-	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-   	    Suspendisse risus nibh, commodo et dictum vel, viverra ac est. 
-   	    Morbi luctus iaculis purus aliquam lacinia. Cras eu pellentesque ligula. 
-   	    Sed elementum, lorem ac aliquam sollicitudin, urna nibh pharetra nisl, 
-        in mollis tellus metus quis sapien. Pellentesque habitant morbi tristique 
-   	    senectus et netus et malesuada fames ac turpis egestas. Morbi bibendum tortor
-   	    malesuada nisi consectetur, sit amet lobortis nisl pulvinar. Suspendisse et 
-   	    ipsum at lectus imperdiet facilisis. Nulla ullamcorper justo felis, eget mattis
-   	    purus luctus quis. Sed interdum nisl erat, vitae porttitor dolor ornare vel. 
-   	    Praesent rutrum non metus at lacinia. Suspendisse sed consequat orci. 
-   	    Proin lectus augue, venenatis at tellus ut, luctus rhoncus erat. 
-   	    In hac habitasse platea dictumst.
-	  </p>
-	  <p>
-	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-   	    Suspendisse risus nibh, commodo et dictum vel, viverra ac est. 
-   	    Morbi luctus iaculis purus aliquam lacinia. Cras eu pellentesque ligula. 
-   	    Sed elementum, lorem ac aliquam sollicitudin, urna nibh pharetra nisl, 
-        in mollis tellus metus quis sapien.
-	  </p>
-	  <p> 
-   	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-   	    Suspendisse risus nibh, commodo et dictum vel, viverra ac est. 
-   	    Morbi luctus iaculis purus aliquam lacinia. Cras eu pellentesque ligula. 
-   	    Sed elementum, lorem ac aliquam sollicitudin, urna nibh pharetra nisl, 
-        in mollis tellus metus quis sapien. Pellentesque habitant morbi tristique 
-   	    senectus et netus et malesuada fames ac turpis egestas. Morbi bibendum tortor
-   	    malesuada nisi consectetur, sit amet lobortis nisl pulvinar. Suspendisse et 
-   	    ipsum at lectus imperdiet facilisis. Nulla ullamcorper justo felis, eget mattis
-   	    purus luctus quis. Sed interdum nisl erat, vitae porttitor dolor ornare vel. 
-   	    Praesent rutrum non metus at lacinia. Suspendisse sed consequat orci. 
-   	    Proin lectus augue, venenatis at tellus ut, luctus rhoncus erat. 
-   	    In hac habitasse platea dictumst.
-	  </p>
-	  <p> 
-   	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-   	    Suspendisse risus nibh, commodo et dictum vel, viverra ac est. 
-   	    Morbi luctus iaculis purus aliquam lacinia. Cras eu pellentesque ligula. 
-   	    Sed elementum, lorem ac aliquam sollicitudin, urna nibh pharetra nisl, 
-        in mollis tellus metus quis sapien. Pellentesque habitant morbi tristique 
-   	    senectus et netus et malesuada fames ac turpis egestas. Morbi bibendum tortor
-   	    malesuada nisi consectetur, sit amet lobortis nisl pulvinar. Suspendisse et 
-   	    ipsum at lectus imperdiet facilisis. Nulla ullamcorper justo felis, eget mattis
-   	    purus luctus quis. Sed interdum nisl erat, vitae porttitor dolor ornare vel. 
-   	    Praesent rutrum non metus at lacinia. Suspendisse sed consequat orci. 
-   	    Proin lectus augue, venenatis at tellus ut, luctus rhoncus erat. 
-   	    In hac habitasse platea dictumst.
-	  </p>
-	  <p> 
-   	    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-   	    Suspendisse risus nibh, commodo et dictum vel, viverra ac est. 
-   	    Morbi luctus iaculis purus aliquam lacinia. 
-	  </p>
-    </article>
+    <p>
+        	   Lorem Ipsum libris gravida reprehendunt quam consequuntur sapientem 
+        nisl reprimique; Hac vide placerat ludus mentitum novum euripidis; 
+        Etiam habeo dolores idque; Explicari essent elaboraret litora sodales!
+        Repudiare vocent constituam sodales di pri sit soluta graece deleniti 
+        aperiri habemus liberavisse causae! Graecis reprehendunt dissentiet 
+        similique corpora graece mel lacinia augue lacus nunc vidisse voluptua
+        iisque choro detraxit amet; Reprehendunt princp tractatos ea. Deserunt
+        ne pulvinar intellegam curabitur scribentur; Perpetua scriptorem autem
+        mandamus rhoncus imperdiet rhoncus simul prompta sit assum natoque 
+        dolore clita mattis fusce sanctus delenit ante etiam ferri! Aliquip 
+        nibh mea tantas audire, ante taciti? Sapien platea dicat venenatis 
+        similique.
+    </p>
+    <p>
+        	   Lorem Ipsum libris gravida reprehendunt quam consequuntur sapientem 
+        nisl reprimique; Hac vide placerat ludus mentitum novum euripidis; 
+        Etiam habeo dolores idque; Explicari essent elaboraret litora sodales!
+        Repudiare vocent constituam sodales di pri sit soluta graece deleniti 
+        aperiri habemus liberavisse causae! Graecis reprehendunt dissentiet 
+        similique corpora graece mel lacinia augue lacus nunc vidisse voluptua
+        iisque choro detraxit amet; Reprehendunt princp tractatos ea. Deserunt
+        ne pulvinar intellegam curabitur scribentur; Perpetua scriptorem autem
+        mandamus rhoncus imperdiet rhoncus simul prompta sit assum natoque 
+        dolore clita mattis fusce sanctus delenit ante etiam ferri! Aliquip 
+        nibh mea tantas audire, ante taciti? Sapien platea dicat venenatis 
+        similique.
+    </p> 
+    <p>
+        	   Lorem Ipsum libris gravida reprehendunt quam consequuntur sapientem 
+        nisl reprimique; Hac vide placerat ludus mentitum novum euripidis; 
+        Etiam habeo dolores idque; Explicari essent elaboraret litora sodales!
+        Repudiare vocent constituam sodales di pri sit soluta graece deleniti 
+        aperiri habemus liberavisse causae! Graecis reprehendunt dissentiet 
+        similique corpora graece mel lacinia augue lacus nunc vidisse voluptua
+        iisque choro detraxit amet; Reprehendunt princp tractatos ea. Deserunt
+        ne pulvinar intellegam curabitur scribentur; Perpetua scriptorem autem
+        mandamus rhoncus imperdiet rhoncus simul prompta sit assum natoque 
+        dolore clita mattis fusce sanctus delenit ante etiam ferri! Aliquip 
+        nibh mea tantas audire, ante taciti? Sapien platea dicat venenatis 
+        similique.
+    </p>  
+  </article>
 	
   </section>
-  
+</div>  
 <!-- Pie -->
-  <footer id="pie">
+  <footer>
     <p>
-	  <br />
-	  Reservados todos los derechos. &copy;<br />
-	  <br />
-	</p> 
+	    Todos los derechos reservados. &copy;<br />
+	  </p> 
   </footer>  
 </body>
 
